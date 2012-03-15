@@ -1,0 +1,23 @@
+info it worked if it ends with ok
+verbose cli [ '/home/cloud9/c9/support/node-c9-builds/bin/node-sunos-v0.6.8-security',
+verbose cli   '/mnt/ws/users/$ja/jamesbloomer/npm/bin/npm-cli.js',
+verbose cli   'push' ]
+info using npm@1.0.106
+info using node@v0.6.8
+verbose config file /home/cloud9/.npmrc
+verbose config file /home/cloud9/c9/support/node-c9-builds/etc/npmrc
+verbose config file /mnt/ws/users/$ja/jamesbloomer/npm/npmrc
+ERR! Error: ENOENT, no such file or directory '/mnt/ws/users/$ja/jamesbloomer/npm/man/man1/'
+ERR! Report this *entire* log at:
+ERR!     <http://github.com/isaacs/npm/issues>
+ERR! or email it to:
+ERR!     <npm-@googlegroups.com>
+ERR! 
+ERR! System SunOS 5.11
+ERR! command "/home/cloud9/c9/support/node-c9-builds/bin/node-sunos-v0.6.8-security" "/mnt/ws/users/$ja/jamesbloomer/npm/bin/npm-cli.js" "push"
+ERR! cwd /mnt/ws/users/$ja/jamesbloomer/134560
+ERR! node -v v0.6.8
+ERR! npm -v 1.0.106
+ERR! path /mnt/ws/users/$ja/jamesbloomer/npm/man/man1/
+ERR! code ENOENT
+verbose exit [ 1, true ]
